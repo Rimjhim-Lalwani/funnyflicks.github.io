@@ -1,0 +1,32 @@
+.tic button {
+    font-family: inherit;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: black;
+    border:solid;
+    font-weight: 600;
+    margin-top: 10%;
+    background-color: #e7da3d;
+  }
+  .tic{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1%;
+    width:auto;
+    height: 40%;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: monospace;
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 900px) {
+        .tic{
+          margin: 15%;
+        }
+}

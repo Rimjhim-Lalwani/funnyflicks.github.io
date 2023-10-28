@@ -1,0 +1,141 @@
+.FootLogo{
+    width: 200px;
+    height: 170px;
+    margin-left: 70px;
+  }
+.footer{
+    width: 100%;
+    position:relative;
+    height:30%;
+    color:#fff;
+    font-size: 13px;
+    line-height: 10px;
+    
+    margin-bottom: -10%;
+    background:#9c1212;
+    
+  }
+  
+  .footer .boxf-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap:20px;
+  
+  }
+ .boxf{
+  display: flex;
+  flex-direction: row;
+  padding:1rem 0;
+ }
+ .boxf ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    font-size: 1.2rem;
+  
+    
+  }
+  .boxf li{
+    list-style-type: none;
+    
+    padding: 2rem;
+  }
+  
+  
+  
+  .footer .boxf-container .boxf p{
+  font-size: 1rem;
+  padding:.2rem 0.1rem;
+  color:#eee;
+  }
+  
+  
+  
+  .footer .boxf-container .boxf a:hover{
+  color:black;
+  
+  }
+  
+  
+  .footer .credit{
+  text-align: center;
+  padding:2rem 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color:#fff;
+  border-top: .1rem solid rgba(255,255,255,.2);
+  }
+  
+  .footer .credit span{
+  color:var(--orange);
+  }
+  
+  .social-icons .fab{
+   
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    
+    background: #fff;
+    margin-left: 50px;
+  
+    cursor: pointer;
+  
+  }
+  .social-icons{
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+  .social-icons :hover{
+  color:#bccdef;
+  
+  }
+  .footer hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid white;
+    
+    position: relative;
+    top:-60px;
+    margin-bottom: 50px;
+  
+  }
+  .copyright{
+    position: relative;
+    top:-80px;
+    text-align: center;
+  
+  }
+  .made{
+    position: relative;
+    top:-80px;
+    text-align: center;
+  }
+
+  .made p:hover{
+    color:#000000;
+  }
+  @media screen and (max-width: 768px) {
+    .boxf-container
+    {
+      left: 10%;
+    }
+    .boxf{
+      flex-direction: column;
+      
+    }
+    .social-icons{
+      margin-top: -70px;
+      margin-left: 280px;
+    }
+    .FootLogo{
+      margin-left: 200px;
+    }
+    .boxf ul{
+      margin-top:-70px;
+
+      
+    }
+  }
